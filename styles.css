@@ -847,18 +847,22 @@
  }
 
  .qr-code {
-    max-width: 150px; /* Lebar maksimum */
-    width: 100%;      /* Fleksibel */
-    height: auto;     /* Proporsi terjaga */
-}
+     max-width: 250px;
+     /* Lebar maksimum */
+     width: 100%;
+     /* Fleksibel */
+     height: auto;
+     /* Proporsi terjaga */
+ }
 
-    /* Responsive untuk mobile */
-    @media (max-width: 480px) {
-        .qr-code {
-            width: 100px;
-            height: 100px;
-        }
-    }
+ /* Responsive untuk mobile */
+ @media (max-width: 480px) {
+     .qr-code {
+         width: 250px;
+         height: 100px;
+         height: auto;
+     }
+ }
 
  /* Animations */
  @keyframes fadeIn {
