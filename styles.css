@@ -846,6 +846,33 @@
      font-size: 0.9rem;
  }
 
+ /* Gaya untuk container QR code */
+    .qr-code-container {
+        text-align: center;
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        max-width: 250px; /* Lebar maksimum container */
+    }
+    
+    /* Gaya untuk gambar QR code */
+    .qr-code {
+        width: 180px; /* Ukuran lebar */
+        height: 180px; /* Ukuran tinggi */
+        object-fit: contain; /* Memastikan gambar utuh terlihat */
+        margin: 0 auto; /* Posisi ditengah */
+        display: block; /* Agar margin auto bekerja */
+    }
+    
+    /* Teks petunjuk */
+    .qr-instruction {
+        margin-top: 0.8rem;
+        font-size: 0.9rem;
+        color: #555;
+    }
+
  /* Animations */
  @keyframes fadeIn {
      from {
